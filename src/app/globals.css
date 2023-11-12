@@ -27,3 +27,29 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.nav-link {
+  display: inline-block;
+  padding: 4px 20px 4px 20px; /* (top, right, bottom, left) (top, bottom) (top, right/left, bottom) (all) */
+  border-radius: 6px;
+  transition: background-color 0.5s ease; /* Adjust the duration as needed */
+}
+
+.nav-link:hover {
+  background-color: rgb(37 99 235);
+  color: #fff;
+}
+
+.course-img {
+  width: 180px;
+  height: 135px;
+  overflow: hidden;
+  border-radius: 2rem; /* 16px */
+  padding: 8px;
+  margin-top: 4px;
+  
+}
+.box-shadow {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+}
+

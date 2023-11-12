@@ -10,9 +10,9 @@ function NavBar(props: any) {
                     PINTERPLUS
                 </h2>
                 <div className="text-2xl m-6 space-x-2">
-                    <Link href={props.link1} className="hover:bg-blue-600 hover:text-white rounded-md px-6 py-1">Home</Link>
-                    <Link href={props.link2} className="hover:bg-blue-600 hover:text-white rounded-md px-6 py-1">Courses</Link>
-                    <Link href={props.link3} className="hover:bg-blue-600 hover:text-white rounded-md px-6 py-1">Payment</Link>
+                    <Link href={props.link1} className="nav-link">Home</Link>
+                    <Link href={props.link2} className="nav-link">Courses</Link>
+                    <Link href={props.link3} className="nav-link">Payment</Link>
                 </div>
             </nav>
         </div>
