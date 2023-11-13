@@ -53,3 +53,9 @@ body {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
 }
 
+.course-grid {
+  grid-template-columns: 230px 230px 230px 230px;
+  grid-template-rows: 300px 300px;
+  }
+
+
