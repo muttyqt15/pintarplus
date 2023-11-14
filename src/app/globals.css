@@ -41,7 +41,7 @@ body {
 }
 
 .course-img {
-  width: 180px;
+  width: 228px;
   height: 135px;
   overflow: hidden;
   border-radius: 2rem; /* 16px */
@@ -54,8 +54,19 @@ body {
 }
 
 .course-grid {
-  grid-template-columns: 230px 230px 230px 230px;
-  grid-template-rows: 300px 300px;
+  grid-template-columns: 300px 300px 300px 300px; /**/
+  grid-template-rows: 250px 300px;
   }
 
+.course-button {
+  /* Regular CSS equivalent for the given Tailwind CSS classes */
+  border: 1px solid #CBD5E0; /* Replace 'border-slate-300' with the actual color code or name */
+  border-radius: 1.5rem; /* Replace 'rounded-3xl' with the desired border-radius value */
+  background-color: #F7FAFC; /* Replace 'bg-slate-50' with the actual color code or name */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Replace 'shadow-2xl' with the desired shadow value */
+  display: inline-block;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Include the desired box shadow */
+  width: 180px;
+  height: 252px;
+}
 
