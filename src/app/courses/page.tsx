@@ -7,10 +7,7 @@ import calculusImg from '../../../public/calculus_img.jpg';
 import dataScienceImg from '../../../public/datascienceImg.jpeg';
 import linearAlgebraImg from '../../../public/linearAlgebra.jpeg';
 import productManagementImg from '../../../public/productManagementImg.jpeg';
-
-
 import Layout from '../components/layout';
-
 
 export default function Courses() {
   return (
@@ -75,11 +72,11 @@ export default function Courses() {
                   Calculus 2
                 </h2>
                 <p className="p-2 text-xs">
-                Python is a general-purpose, versatile, and powerful programming language. 
+                Expands on calculus fundamentals, diving into techniques like integration by parts, sequences, and series.
                 </p>
               </div>
             </button>
-            <button className="border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
+            <button className="border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow hover:shadow-cyan-500 hover:shadow-2xl " style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
               <div className="flex flex-col items-center">
                 <Image 
                 src={dataScienceImg}
@@ -122,7 +119,7 @@ export default function Courses() {
                   Project Management
                 </h2>
                 <p className="p-2 text-xs">
-                Python is a general-purpose, versatile, and powerful programming language. 
+                Involves planning, organizing, and overseeing tasks to achieve specific goals within constraints like time, budget, and resources.
                 </p>
               </div>
             </button>
