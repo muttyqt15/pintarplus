@@ -8,6 +8,7 @@ import dataScienceImg from '../../../public/datascienceImg.jpeg';
 import linearAlgebraImg from '../../../public/linearAlgebra.jpeg';
 import productManagementImg from '../../../public/productManagementImg.jpeg';
 import Layout from '../components/layout';
+import cryptoImg from '../../../public/cryptoImg.png'
 
 export default function Courses() {
   return (
@@ -16,7 +17,7 @@ export default function Courses() {
       <h1 className="text-6xl font-bold flex justify-center mt-8">Courses</h1>
       <div className="flex flex-col items-center" style={{ zIndex: 4 }}>
           <div className="grid course-grid grid-cols-4 w-100 h-100 grid-rows-2 gap-2 mx-16 mt-10 place-items-center">
-            <button className="border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
+            <button className="hover:scale-110 transition-transform border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
               <div className="flex flex-col items-center">
                 <Image 
                 src={pythonImage}
@@ -31,7 +32,7 @@ export default function Courses() {
                 </p>
               </div>
             </button>
-            <button className="border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
+            <button className="hover:scale-110 transition-transform border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
               <div className="flex flex-col items-center">
                 <Image 
                 src={discreteMath}
@@ -46,7 +47,7 @@ export default function Courses() {
                 </p>
               </div>
             </button>
-            <button className="border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
+            <button className="hover:scale-110 transition-transform border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
               <div className="flex flex-col items-center">
                 <Image 
                 src={bizAnalytics}
@@ -61,7 +62,7 @@ export default function Courses() {
                 </p>
               </div>
             </button>
-            <button className="border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
+            <button className="hover:scale-110 transition-transform border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
               <div className="flex flex-col items-center">
                 <Image 
                 src={calculusImg}
@@ -76,7 +77,7 @@ export default function Courses() {
                 </p>
               </div>
             </button>
-            <button className="border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow hover:shadow-cyan-500 hover:shadow-2xl " style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
+            <button className="hover:scale-110 transition-transform border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
               <div className="flex flex-col items-center">
                 <Image 
                 src={dataScienceImg}
@@ -87,13 +88,13 @@ export default function Courses() {
                   Data Science
                 </h2>
                 <p className="p-2 text-xs">
-                Python is a general-purpose, versatile, and powerful programming language. 
+                A highly growing field, learn all about Big Data and its friends!
                 </p>
               </div>
             </button>
 
             
-            <button className="border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
+            <button className="hover:scale-110 transition-transform border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
               <div className="flex flex-col items-center">
                 <Image 
                 src={linearAlgebraImg}
@@ -104,11 +105,11 @@ export default function Courses() {
                   Linear Algebra
                 </h2>
                 <p className="p-2 text-xs">
-                Python is a general-purpose, versatile, and powerful programming language. 
+                Used for projecting a three-dimensional view into a two-dimensional plane, handled by linear maps.
                 </p>
               </div>
             </button>
-            <button className="border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
+            <button className="hover:scale-110 transition-transform border border-slate-300 bg-slate-50 shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
               <div className="flex flex-col items-center">
                 <Image 
                 src={productManagementImg}
@@ -119,22 +120,22 @@ export default function Courses() {
                   Project Management
                 </h2>
                 <p className="p-2 text-xs">
-                Involves planning, organizing, and overseeing tasks to achieve specific goals within constraints like time, budget, and resources.
+                Organizing and planning goals in order to best complete a project.
                 </p>
               </div>
             </button>
-            <button className="border border-slate-300 bg-slate-50  shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
+            <button className="hover:scale-110 transition-transform border border-slate-300 bg-slate-50  shadow-2xl inline-block box-shadow" style={{ width: '252px', height: '230px', borderRadius: '40px'}}>
               <div className="flex flex-col items-center">
                 <Image 
-                src={pythonImage}
+                src={cryptoImg}
                 alt="python"
                 className="course-img"
                 />
                 <h2 className="font-semibold">
-                  Python 101
+                  Crypto
                 </h2>
                 <p className="p-2 text-xs">
-                Python is a general-purpose, versatile, and powerful programming language. 
+                Crypto is a newly formed currency capable of anything, learn all about it!
                 </p>
               </div>
             </button>
