@@ -16,6 +16,7 @@ export default function Home() {
                 <Link href="/payment/" className="nav-link">Payment</Link>
             </div>
         </nav>
+        
     </div>
       <main className="flex min-h-screen flex-col items-center">
       <div className="mb-60">
@@ -30,6 +31,7 @@ export default function Home() {
         <div className="mt-8 hover:scale-110 transition-transform">
         <Link href="/courses/" className="-bottom-8 bg-red-500 text-white font-semibold py-2 px-4 border border-red-500 hover:border-transparent rounded my-5">ClICK HERE TO GET STARTED</Link>
         </div>
+        <p className="text-blue-600 font-bold m-16">Muttaqin, Nevin, Sayyid, Dhania, Clara</p>
         </ul>
         <div className=" w-96 h-96 rounded-full bg-red-300 filter blur-3xl absolute -right-32"></div>
       </div>
@@ -37,6 +39,7 @@ export default function Home() {
       <div className="mr-52 ">
       <div className="w-96 h-96 rounded-full bg-blue-300 filter blur-3xl mr-96"></div>
       </div>
+      
     </main>
     </>
   );
